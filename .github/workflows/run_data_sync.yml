@@ -6,7 +6,7 @@ on:
     - cron: '0 0 * * *'
   push:
     branches:
-      - master
+      - main
     paths:
       - scripts/nike_sync.py
       - scripts/nike_to_strava_sync.py
@@ -25,7 +25,7 @@ env:
   ATHLETE: ljohn6530
   TITLE: Ljohn6530 Running
   MIN_GRID_DISTANCE: 10 # change min distance here
-  TITLE_GRID: Over 3km Runs # also here
+  TITLE_GRID: Over 1km Runs # also here
   GITHUB_NAME: ljohn6530 # change to yours
   GITHUB_EMAIL: ljian6530@gmail.com # change to yours
 
