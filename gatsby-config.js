@@ -1,7 +1,8 @@
 /* eslint-disable no-undef */
 // eslint-disable-next-line no-undef
 module.exports = {
-  pathPrefix: process.env.PATH_PREFIX || '/',
+  //pathPrefix: process.env.PATH_PREFIX || '/',
+  pathPrefix: '/',
   siteMetadata: {
     siteTitle: 'Running Page',
     siteUrl: 'https://run.ljohn.cn',
@@ -14,7 +15,7 @@ module.exports = {
       },
       {
         name: 'About',
-        url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+        url: 'https://www.ljohn.cn/about/',
       },
     ],
   },
